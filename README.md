@@ -1,4 +1,5 @@
 # Ervin_Wong_ASG1
-# Website about the works of a singer/voice-actress
-# User audience intent and purpose: To view the works that the singer has created/contributed to 
-# website caters to fans who want to know more about their favourite artist and for production companies who need artists to star in their works to scout out potential candidates  
+## This website will contain information on different types of Headphones/headsets.
+## The user audience will visit this website to get information on the features and functinons of different headphones/headsets.
+## The website caters to users who are looking to purchase their first headphone/headset. The information on the different products provided by the website will help consumers make informed decisions when making a purchase.
+## 
