@@ -10,9 +10,41 @@ html {
     margin-top: 350px;
   }
 
-.flex-items{
+.flex-item1{
     color: white;
     background-color: black;
+    border-radius: 25px;
     text-align: center;
     width: 450px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.flex2{
+  display: flex;
+  margin: 300px;
+  margin-left: 0px;
+}
+
+.flex-item2{
+  background-color: black;
+  border-radius: 25px;
+  text-align: center;
+  width: 250px;
+  height: 100px;
+}
+
+h2{
+  font-family: 'Roboto Mono', monospace;
+}
+
+a{
+  font-family: 'Roboto Mono', monospace;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
 }
