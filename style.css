@@ -3,24 +3,16 @@ html {
     background-size: cover;
    }
 
-   .button{
-    background-color: white;
-    color: black;
-    text-align: center;
-    font-size: 30px;
-    display: inline-block;
-    
-    
-}
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+  }
 
-
-body{
-    display: inline-block;
-    width: 500px;
-    background-color: black;
-    padding-bottom: 50px;
-}
-
-p{
+.flex-items{
     color: white;
+    background-color: black;
+    text-align: center;
+    width: 450px;
 }
