@@ -29,3 +29,18 @@ a{
     width: 500px;
     height: 100px;
   }
+
+  @media(max-width:500px){
+    .flex{
+      flex-direction: column;
+    }
+
+    .flex-item1{
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+    }
+
+    .flex-item2{
+      flex-wrap: wrap;
+    }
+  }
