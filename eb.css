@@ -1,0 +1,31 @@
+html{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 75px;
+    margin-top: 0%;
+}
+
+h2{
+    font-size: 40px;
+    border: solid black;
+    border-width: 1px;
+    width: 400px;
+    outline-style: solid;
+    outline-color: red;
+}
+
+p{
+    font-size: 25px;
+    border: solid black;
+    outline-style: solid;
+    outline-color: red;
+    border-width: auto;
+    width: 50%;
+}
+
+h1,h2,p{
+    color: white;
+}
