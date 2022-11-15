@@ -17,15 +17,38 @@ h2{
     outline-color: red;
 }
 
-p{
-    font-size: 25px;
+
+h3{
+    font-size: 30px;
     border: solid black;
     outline-style: solid;
-    outline-color: red;
-    border-width: auto;
-    width: 50%;
+    outline-color: purple;
+    border-width: 1px;
+    width: 300px;
 }
 
-h1,h2,p{
+p{
+    font-size: 25px;
+} 
+
+h1,h2,h3,p{
     color: white;
+}
+
+h1{
+    color: white;
+}
+
+
+img{
+    max-width: 40%;
+    max-height: auto;
+}
+
+
+
+.flex-item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
