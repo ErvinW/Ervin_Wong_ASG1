@@ -52,3 +52,22 @@ img{
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+@media(max-width:500px){
+    .flex{
+      flex-direction: column;
+    }
+
+    .flex-item1{
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+    }
+    img{
+        max-width: 100%;
+    }
+
+    .para{
+        font-size: small;
+    }
+  }
