@@ -45,13 +45,21 @@ img{
     max-height: auto;
 }
 
+a{
+    text-decoration: none;
+    color: red;
+    margin-bottom: 20px;
+}
+
 
 
 .flex-item1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 300px;
 }
+
 
 
 @media(max-width:500px){
