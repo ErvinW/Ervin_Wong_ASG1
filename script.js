@@ -1,20 +1,14 @@
-function AudioItems(name, build, app, anc, batt, ipx,
-    con, desc, purhclink, imglink){
-        this.name = name;
-        this.build = build;
-        this.app = app;
-        this.anc = anc;
-        this.batt = batt;
-        this.ipx = ipx;
-        this.con = con;
-        this.desc = desc;
-        this.purhclink = purhclink;
-        this.imglink = imglink;
-        this.audioItemProfile = function(){
-            return `${this.name} Build: ${this.build}, App: ${this.app}, ANC: ${this.anc}, Battery: ${this.batt}, IPX: ${this.ipx}, 
-            Connection: ${this.con}, ${this.desc}, ${this.purhclink}, ${this.imglink}`;
-        }
-    }
+function sendEmail(){
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "ervintestemail@gmail.com",
+        Password : "12N887322n05",
+        To : 'ervinwongyongqi@gmail.com',
+        From : document.getElementById("name").value,
+        Subject : "Feedback",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+}
 
-
-    

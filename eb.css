@@ -80,3 +80,21 @@ a{
         font-size: small;
     }
   }
+
+
+
+
+  button{
+    padding: 15px;
+    background: #ff5361;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button a{
+    color: white;
+}
