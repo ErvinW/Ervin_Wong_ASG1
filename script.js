@@ -10,4 +10,11 @@ function AudioItems(name, build, app, anc, batt, ipx,
         this.desc = desc;
         this.purhclink = purhclink;
         this.imglink = imglink;
+        this.audioItemProfile = function(){
+            return `${this.name} Build: ${this.build}, App: ${this.app}, ANC: ${this.anc}, Battery: ${this.batt}, IPX: ${this.ipx}, 
+            Connection: ${this.con}, ${this.desc}, ${this.purhclink}, ${this.imglink}`;
+        }
     }
+
+
+    
