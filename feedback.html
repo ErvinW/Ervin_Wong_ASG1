@@ -4,11 +4,12 @@
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" href="feedback.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
     </head>
 
     <body>
         <div class="container">
-            <form>
+            <form onsubmit="myFunction(event)">
                 <h2>Share your feedback</h2>
                 <input type="text" id="name" placeholder="Your name" required>
                 <input type="email" id="email" placeholder="Email address" required>
